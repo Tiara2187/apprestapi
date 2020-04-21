@@ -1,0 +1,27 @@
+{
+  "name": "apprestapi",
+  "version": "1.0.0",
+  "description": "aplikasi rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tiara2187/apprestapi.git"
+
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs"
+  ],
+  "author": "Tiara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tiara2187/apprestapi/issues"
+
+  },
+  "homepage": "https://github.com/Tiara2187/apprestapi#readme"
+}
+
