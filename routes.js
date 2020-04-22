@@ -16,5 +16,10 @@ module.exports = function(app) {
 
     //Tambah data untuk tabel mahasiswa
     app.route('/tambah')
-    .post(jsonku.tambahMahasiswa);
+        .post(jsonku.tambahMahasiswa);
+
+    //Update data untuk tabel mahasiswa
+    app.route('/ubah')
+        .put(jsonku.ubahMahasiswa);
+
 }
