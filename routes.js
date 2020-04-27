@@ -26,4 +26,8 @@ module.exports = function(app) {
     app.route('/hapus')
     .delete(jsonku.hapusMahasiswa);
 
-}
+    //Nested group matakuliah
+    app.route('/tampilmatakuliah')
+    .get(jsonku.tampilgroupmatakuliah);
+
+}  
